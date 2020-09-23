@@ -1,4 +1,4 @@
-# Tussock_extraction
+#Ellis et al supporting code
 
 Extract fine landscape features as a raster layer from a point cloud.
 Example here is aimed for grassland tussocks, other fine features can be used instead. 
