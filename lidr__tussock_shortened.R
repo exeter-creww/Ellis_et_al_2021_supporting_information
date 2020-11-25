@@ -1,5 +1,5 @@
 #================TUSSOCK EXTRACTION USING R========#
-setwd("E:/Drone_R")
+setwd("location")
 library(lidR)
 library(PointCloudViewer)
 library(rlas)
@@ -16,7 +16,7 @@ plot(las, backend = "pcv")
 
 
 #========classify ground points========#
-las = lasground(las,csf (sloop_smooth = FALSE, class_threshold = 0.01,
+las = lasground(las,csf (sloop_smooth = FALSE, class_threshold = 0.1,
                          cloth_resolution = 0.5, rigidness = 1L, iterations = 500L, time_step = 0.65))
 plot(las, color = "Classification", backend = "pcv")
 
