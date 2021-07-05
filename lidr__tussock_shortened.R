@@ -17,7 +17,7 @@ library(sf)
 
 
 #========plot las file using c++========#
-las <- readLAS("example.las")
+las <- readLAS("molinia_dc_subet.las")
 #Plot data
 plot(las, backend = "pcv")
 
